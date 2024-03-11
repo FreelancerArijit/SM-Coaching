@@ -1,0 +1,81 @@
+.navbar{
+    width: 100vw;
+    height: 32vh;
+}
+/* .logo{
+    font-size: 30px;
+} */
+.logo{
+    width: 100%;
+    font-size: 0.9rem;
+}
+.logo span{
+    font-size: 4rem;
+}
+.src{
+    height: 115px;
+    width: 150px;
+}
+
+.socials{
+    /* display:block; */
+    position: absolute;
+    top: 11rem;
+    right: 2rem;
+    z-index: 1;
+    width: 52vw;
+}
+
+.call{
+   padding: 0rem 1.8rem;
+}
+/* .phnCall{
+    display:block;
+    position: fixed;
+    top: 0rem;
+    right: 0rem;
+    background-color: rgb(228, 31, 31);
+    padding: 0rem 1.1rem;
+    /* border-radius: 0.8rem; */
+    /* cursor: pointer;
+  } */ 
+
+
+.middle{
+    /* flex-wrap:wrap; */
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* background-color:black; */
+}
+.about{
+    width:100vw;
+    height:27vh;
+}
+.aboutPara{
+    width:100vw;
+}
+.title{
+    width: 48vw;
+  }
+video{
+    width: 100%;
+}
+
+.classes{
+    flex-direction: column;
+    width: 100vw;
+    height: 56vh;
+    align-items:  center;
+}
+
+.class{
+    width: 90vw;
+    margin-top: 1rem;
+}
+.footer{
+    position: relative;
+    top: 30rem;
+
+}

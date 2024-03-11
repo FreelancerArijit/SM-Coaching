@@ -1,0 +1,187 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin:0;
+    padding: 0;
+   
+}
+.slider{
+    height: 50vh;
+    width: 97vw;
+    margin: auto;
+    /* background-color: blue; */
+}
+.w-100 {
+    width: 95%!important;
+    height: 47vh!important;
+}
+.navbar{
+    /* background-color:rgb(149 9 9); */
+    color:black;
+    display: flex;
+    height: 20vh;
+
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 36vw;
+    /* color: rgb(168, 6, 6); */
+  color:black;
+  font-family: 'Agbalumo', system-ui;
+
+   
+}
+.logo span{
+  font-size: 5.5rem;
+  /* color:rgb(235, 238, 39); */
+  color:black;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-family: 'Agbalumo', system-ui;
+
+}
+.src{
+    height: 107px;
+    width: 126px;
+}
+.socials{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25vw;
+  /* background-color: red; */
+ 
+}
+.icon{
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+
+}
+.call{
+  background-color: rgb(228, 31, 31);
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+.phnCall{
+  display:none;
+}
+.middle{
+  display:flex;
+  /* justify-content: space-evenly; */
+  width: 97vw;
+  margin:auto;
+  flex-direction: row;
+}
+.about{
+    /* Telling our absolute positioned video to 
+    be relative to this element */
+    position: relative;
+  
+    width: 61vw;
+    height: 70vh;
+    /* margin: auto; */
+  
+    /* Will not allow the video to overflow the 
+    container */
+    overflow: hidden;
+    /* display: flex; */
+    /* background-color: green; */
+   
+   
+  }
+  .title{
+    width: 100vw;
+  }
+  
+
+  video {
+    /** Simulationg background-size: cover */
+    object-fit: cover;
+    height: 106%;
+    width: 94%;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+/* #myVideo {
+    position: relative;
+    right: 0;
+    bottom: -127px;
+    /* min-width: 100%;
+    min-height: 100%; */
+    /* width: 50vw;
+    height: 50vh;
+
+    margin-top: 10px;
+    z-index: -1;
+  } */
+   
+  .aboutPara{
+    width: 36vw;
+    height: 92vh;
+    font-family: 'Mukta', sans-serif;
+    /* padding-left: 48rem; */
+    /* background-color: red; */
+    font-size: 1.1rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction:column;
+    /* align-items: center; */
+    justify-content: center;
+
+  }
+  .classes{
+    height: 50vh;
+    width: 97vw;
+   display: flex;
+   /* flex-direction: column; */
+   justify-content: space-between;
+    
+
+  }
+  .title{
+    width: 7vw;
+    margin:auto;
+    font-family: 'Agbalumo', system-ui;
+  }
+  .class{
+    height: 43vh;
+    width: 25vw;
+    background-image: linear-gradient(to top right,whitesmoke 5%, rgb(6, 132, 216) 30%);
+    margin: 0rem 0.5rem;
+    font-size: 1.3rem;
+    display:flex;
+    align-items: center;
+    /* justify-content:center; */
+    flex-direction: column;
+    padding: 0.5rem;
+    font-family: 'Rubik', sans-serif;
+  }
+.footer{
+  width: 98vw;
+  padding-right:1rem; 
+  margin: auto;
+  height: 8vh;
+  background-color: rgb(230, 224, 224);
+  /* color: white; */
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer{
+  position: relative;
+  top: 0rem;
+  
+}
+.con_img{
+  height: 20px;
+  width: 40px;
+}
